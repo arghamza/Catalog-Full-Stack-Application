@@ -164,7 +164,7 @@ GET /localhost:8761/
 
 # III Secured Angular Client with keycloak 
 ## 1 Setup
-![image](https://user-images.githubusercontent.com/46407388/206116435-5ef5ee3e-07fa-4498-bc30-2a1baa11420f.png)
+![image](https://user-images.githubusercontent.com/55364638/206931547-ea2548af-8dd5-4a6d-9906-912f9330fe16.png)
 
 
 ## 2 Postman
