@@ -1,0 +1,6 @@
+[submodule "Spring-Cloud"]
+	path = Spring-Cloud
+	url = https://github.com/arghamza/Spring-Cloud.git
+[submodule "Catalog-Angular"]
+	path = Catalog-Angular
+	url = https://github.com/arghamza/Catalog-Angular.git
