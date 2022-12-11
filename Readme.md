@@ -40,7 +40,7 @@
 GET /localhost:8888/PRODUCT-SERVICE/products
 ```
 
-![image](https://user-images.githubusercontent.com/101510983/206921870-72327b83-9f52-45a3-a165-a258fec9ebfc.png)
+![image](https://user-images.githubusercontent.com/55364638/206927699-da2bd3b9-7d1c-4ca3-837e-c9564a826ede.png)
 
 
 
