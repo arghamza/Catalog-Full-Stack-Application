@@ -25,11 +25,20 @@
   * [5 New Customer](#5-new-customer)
   ## Bills
   * [Show Bills](#show-bills)
-# III Secured Angular Client with keycloak
-  * [1 Setup](#1-setup)
-  * [2 Postman](#2-postman)
-  * [3 Refresh Token](#3-refresh-token)
-  * [4 Client Auth Credentials](#4-client-auth-credentials)
+# III. KEYCLOAK
+  * [1 Realm](#1-realm)
+  * [2 Client](#2-client)
+  * [3 Utilisateurs](#3-users)
+  * [4 Rôles](#4-roles)
+  * [5 Tokens](#4-tokens)
+  * [6 Service sécurisé](#5-Service-sécurisé)
+# IV. KAFKA :
+  * [1 Supplier](#1-supplier)
+  * [2 Consumer](#2-Consumer)
+  * [3 Kafka streams ](#3-Kafka-streams )
+
+
+# V. DOCKER :
 # I. Backend :
 ## 1. use case
 
@@ -161,21 +170,71 @@ GET /localhost:8761/
 
 ![image](https://user-images.githubusercontent.com/55364638/206925572-719bdaa5-0195-46e8-b4e2-7a190a300df9.png)
 
+# III. KEYCLOAK :
+```To start Keycloak
+> ...\bin\standalone.bat
+```
 
-# III Secured Angular Client with keycloak 
-## 1 Setup
-![image](https://user-images.githubusercontent.com/55364638/206931547-ea2548af-8dd5-4a6d-9906-912f9330fe16.png)
+## 1. REALM
+
+![image](https://user-images.githubusercontent.com/73041687/219620750-5378152e-a955-45e1-9bd2-699374405d80.png)
+
+## 2. CLIENT
+
+![image](https://user-images.githubusercontent.com/73041687/219620904-dd7f3c62-636a-41c8-b327-106fa3cf47cc.png)
+
+## 3. USERS
+
+![image](https://user-images.githubusercontent.com/73041687/219620974-3fa8bea4-4be1-43c3-9b89-44841369e2f7.png)
+
+## 4. ROLES
+![image](https://user-images.githubusercontent.com/73041687/219621061-6890af29-2d3e-44c1-890a-02e970ca78b8.png)
+
+![image](https://user-images.githubusercontent.com/73041687/219621157-94bd7359-07d2-48e6-91b5-661348334d60.png)
+
+## 5. TOKENS
+
+![Capture d’écran 2023-02-09 173815](https://user-images.githubusercontent.com/73041687/219621277-d957395c-559d-402a-a06a-232e1109cccf.jpg)
+
+![Capture d’écran 2023-02-09 173750](https://user-images.githubusercontent.com/73041687/219621287-ef639e50-0db2-4a9c-a805-6510b070b746.jpg)
+
+## 6. Service sécurisé
+
+![image](https://user-images.githubusercontent.com/73041687/219621563-7e6a5211-68be-44be-b764-45867cf51713.png)
 
 
-## 2 Postman
-![image](https://user-images.githubusercontent.com/46407388/206116789-117ba8a2-f337-4fa4-9e01-5d34998c82e5.png)
+# IV. KAFKA :
+## 1. SUPPLIER
+
+![image](https://user-images.githubusercontent.com/73041687/219654966-8ed99356-f63b-449b-b782-480121de32f6.png)
+
+![image](https://user-images.githubusercontent.com/73041687/219687628-a8c20cbe-a87a-4375-9636-b932406c01ac.png)
 
 
-## 3 Refresh Token
-![image](https://user-images.githubusercontent.com/46407388/206116912-121fab06-38fc-4e4b-81ee-cb8013bd2ff1.png)
+## 2. CONSUMER
+
+![image](https://user-images.githubusercontent.com/73041687/219677290-25fc52df-3a92-4a65-8e3e-dbf559b2f1de.png)
+
+## 3. KAFKA STREAMS 
+
+![image](https://user-images.githubusercontent.com/73041687/219668084-72ac27e1-849e-4fe5-bec0-9eb63685b965.png)
 
 
-## 4 Client Auth Credentials
-![image](https://user-images.githubusercontent.com/46407388/206117029-7f95a0d9-d7d1-453d-8b0b-8b157098d418.png)
 
+# V. DOCKER :
+
+## BILLING-SERVICE 
+![image](https://user-images.githubusercontent.com/73041687/219697077-feed41f4-1a89-45e8-9206-19451d6dc80a.png)
+## INVENTORY-SERVICE
+![image](https://user-images.githubusercontent.com/73041687/219698461-5131e970-68b0-4978-a159-a0c628cdb856.png)
+
+![image](https://user-images.githubusercontent.com/73041687/219706814-b5b679ad-30b0-4848-a57c-743ddd0b2798.png)
+## CUSTOMER-SERVICE
+![1](https://user-images.githubusercontent.com/84048380/219879470-280f20b5-64ba-40ef-b1d1-efbcf85222ba.png)
+## GATEWAY-SERVICE
+![2](https://user-images.githubusercontent.com/84048380/219879477-5aabf372-83ce-425f-91ce-1b7229f4e183.png)
+## EUREKA-DISCOVERY
+![3](https://user-images.githubusercontent.com/84048380/219879489-cf5be4ef-21dd-4591-a6fe-729d264c99bc.png)
+## FRONTEND
+![4](https://user-images.githubusercontent.com/84048380/219879497-61682b3a-19cc-4aba-b753-9088da73a10e.png)
 
